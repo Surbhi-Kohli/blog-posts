@@ -1,0 +1,36 @@
+.Cards{
+    display:flex;
+     justify-content: space-around;
+    flex-wrap:wrap;
+}
+.Pagination{
+    padding:0 15px;
+    height:60px;
+    background-color:lightblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    text-decoration:none;
+    border:1px solid lightblue;
+    flex: 1 1 30%; 
+    color:black;
+}
+.card{
+    border:1px solid lightblue;
+    flex: 1 1 400px; 
+  
+    margin:10px;
+    padding:5px;
+    box-shadow:3px 3px 5px 6px #ccc;
+}
+input{
+    height:80%;
+
+}
+img{
+    cursor:pointer;
+    height:20px;
+    width:20px;
+}

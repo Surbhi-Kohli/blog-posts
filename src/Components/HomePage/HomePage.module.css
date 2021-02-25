@@ -1,0 +1,26 @@
+.TableContainer{
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+  }
+  .mainContainer{
+      margin-top:50px;
+      display:flex;
+      flex-direction: column;
+  }
+  .filterBox
+  {
+    padding:0 25px;
+    height:50px;
+    background-color:lightblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  table{
+      height:60vh;
+      width:50%;
+  }
+  thead{ background-color:#ddd;  }
+  tr:hover {background-color: #ddd;}
+  tr:nth-child(even){background-color: #f2f2f2;}
